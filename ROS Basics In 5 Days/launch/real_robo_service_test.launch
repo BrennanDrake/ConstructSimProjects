@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="real_robo_pkg" type="real_robo_service_server.py" name="robo_find_wall_server_node" output="screen" />
+    <node pkg="real_robo_pkg" type="real_robo_service_client.py" name="robo_control_node" output="screen" />
+</launch>

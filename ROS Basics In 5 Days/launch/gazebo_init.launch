@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="real_robo_pkg" type="real_robo_gazebo.bash" name="gazebo_launch"/>
+</launch>
